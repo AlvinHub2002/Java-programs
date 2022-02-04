@@ -148,7 +148,7 @@ class 	SignUpForm extends Frame implements ActionListener {
 		 if (e.getSource() == sub) {
 			 Font msgFont = new Font("arial", Font.BOLD, 30);
 			 msg=new Label();
-				msg.setBounds(500,530,1000,30);
+				msg.setBounds(630,350,1000,30);
 				msg.setFont(msgFont);
 				msg.setText("Account created! For Account details visit console");
 				add(msg);
